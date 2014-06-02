@@ -1,7 +1,3 @@
-/*!
- * minQuery
- */
-
 var SweetSelector = {
   select: function(element) {
     switch (element[0]) {
@@ -17,9 +13,7 @@ var SweetSelector = {
 
 var DOM = (function(){
 
-  // private - oh ravi, you're so cute... you think you're in rubyland
-
-    // general helper functions
+  // general helper functions
 
   var _iterateAndExecute = function(array, func) {
     for (var i = 0; i < array.length; i++) {
@@ -103,12 +97,7 @@ var EventDispatcher = (function(){
   }
 })();
 
-
-  // behead: function(marieAntoinette) {
-  // // we argued about naming conventions and we agreed on this one //
-  //   beheadedCorpse = marieAntoinette.slice(1);
-  //   return beheadedCorpse;
-  // }
+// Usefull things below ----------------
 // Object.prototype.toString.call(t)
 // http://vanilla-js.com/
 // http://stackoverflow.com/questions/12770147/is-htmlcollection-an-array
